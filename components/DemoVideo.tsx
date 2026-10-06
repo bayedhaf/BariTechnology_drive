@@ -2,7 +2,7 @@
 import { useRef, useState } from "react";
 
 // Set in .env.local: NEXT_PUBLIC_YOUTUBE_ID (video or live stream ID) or NEXT_PUBLIC_YOUTUBE_CHANNEL (UC... channel ID)
-const ID = process.env.NEXT_PUBLIC_YOUTUBE_ID || "TwnrsIN5v70";
+const ID = process.env.NEXT_PUBLIC_YOUTUBE_ID || "dQElqoBOX4E";
 const CHANNEL = process.env.NEXT_PUBLIC_YOUTUBE_CHANNEL ?? "";
 
 export type VideoLabels = {
