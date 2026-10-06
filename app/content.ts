@@ -1,0 +1,58 @@
+export type Lang = "om" | "en";
+
+export const content = {
+  om: {
+    langName: "Oromoo", join: "Tarree Seeni", joinHero: "Tarree Eeggannoo Seeni",
+    h1: "Egeree Kee Jalqabi",
+    sub: "Kompiitara, AI fi teekinooloojii Afaan Oromootiin salphaatti baradhu. Daa'ima irraa hanga jaarsaatti, nama hundaaf.",
+    meaning: "BARI = Barii, jalqaba haaraa",
+    whatH: "Wanta BARI si kennu", whatLead: "Meeshaalee afur, afaan tokko: Afaan Oromoo.",
+    features: [
+      { ic: "🤖", t: "Barsiisaa AI", p: "Gaaffii kee Afaan Oromootiin gaafadhu, deebii ifaa argadhu. Yeroo kamiyyuu, hojii manaa fi dhimma hojii irrattis si gargaara." },
+      { ic: "✈️", t: "Boottii Telegram", p: "Barnoota gabaabaa guyyaa guyyaan bilbila keetti. Daataa hedduu hin barbaachisu." },
+      { ic: "📰", t: "Saayitii Odeeffannoo Teekinooloojii", p: "Oduu, qajeelfama fi gorsa teekinooloojii Afaan Oromootiin barreeffame." },
+      { ic: "🎓", t: "Leenjii Ifaa", p: "Sadarkaa sadarkaan, jalqaba irraa. Fakkeenya fi shaakala wajjin." },
+    ],
+    whoH: "Nama hundaaf", whoLead: "Umurii kamiyyuu irratti jalqabuu ni dandeessa.",
+    ages: [
+      { tag: "Daa'imman", t: "Taphaan baradhu", p: "Kompiitara fi interneetii bu'uura isaa, gabaabaa fi gammachiisaan." },
+      { tag: "Dargaggoota", t: "Ogummaa ijaarsadhu", p: "AI, koodii barreessuu fi hojii dijitaalaa, hojii fi gabaaf si qopheessa." },
+      { tag: "Maatii fi jaarsolii", t: "Suuta, ifaadhumatti", p: "Bilbila, Telegram, kaffaltii fi nageenya sararaa, tarkaanfii tokko tokkoon." },
+    ],
+    topicsH: "Maal baratta?", topicsLead: "Bu'uura irraa hanga gorsa ogeessotaatti.",
+    topics: ["Bu'uura kompiitaraa", "AI fi ChatGPT fayyadamuu", "Interneetii fi nageenya", "Gorsa bilbilaa fi Telegram", "Koodii barreessuu", "Hojii fi gabaa dijitaalaa", "Word, Excel fi Qabiyyee", "Kaffaltii mobaayilaa", "Odeeffannoo sobaa adda baasuu"],
+    demoH: "Live Demo ilaali", demoLead: "BARI akkamitti hojjetu ija keetiin ilaali.", demoTitle: "BARI Live Demo", demoPlay: "Vidiyoo banuuf tuqi", demoBadge: "LIVE DEMO", demoEmpty: "Vidiyoo YouTube asitti dabali", demoSound: "Sagalee banuu", demoMute: "Sagalee cufuu", demoPause: "Dhaabi", demoPlayBtn: "Jalqabi", demoOpen: "YouTube irratti bani", demoFull: "Iskiriinii guutuu", demoFit: "Vidiyoo guutuu agarsiisi", demoFill: "Iddoo guuti",
+    waitH: "Warra jalqabaa wajjin ta'i", waitP: "BARI dhiyeenyatti ni jalqaba. Tarree seenii, yeroo banamu duraan si beeksifna.",
+    name: "Maqaa kee", contact: "Lakkoofsa bilbilaa ykn Telegram", role: "Ani",
+    roles: { child: "Daa'ima / Barattuu", youth: "Dargaggoo", adult: "Ga'esa", elder: "Jaarsa / Jaartii", parent: "Maatii (ijoollee koof)" },
+    ok: "Galatoomaa! Tarree eeggannoo keessa jirta.", bad: "Maqaa fi lakkoofsa bilbilaa ykn Telegram guuti.", fail: "Dogoggorri uumame. Irra deebi'ii yaali.",
+    count: (n: number) => `${n} nama tarree seenaniiru`,
+  },
+  en: {
+    langName: "English", join: "Join list", joinHero: "Join the waiting list",
+    h1: "Start Your Future",
+    sub: "Learn computers, AI and technology in Afaan Oromoo, clearly and simply. For children, youth and elders alike.",
+    meaning: "BARI = dawn, a new beginning",
+    whatH: "What BARI gives you", whatLead: "Four tools, one language: Afaan Oromoo.",
+    features: [
+      { ic: "🤖", t: "AI tutor", p: "Ask in Afaan Oromoo and get a clear answer, any time. It helps with homework and real work too." },
+      { ic: "✈️", t: "Telegram bot", p: "Short daily lessons on your phone, light on data." },
+      { ic: "📰", t: "Tech info site", p: "News, guides and tips on technology, written in Afaan Oromoo." },
+      { ic: "🎓", t: "Clear courses", p: "Step by step from zero, with examples and practice." },
+    ],
+    whoH: "For everyone", whoLead: "You can start at any age.",
+    ages: [
+      { tag: "Children", t: "Learn by playing", p: "Computer and internet basics, short and fun." },
+      { tag: "Youth", t: "Build skills", p: "AI, coding and digital work that prepare you for jobs and business." },
+      { tag: "Parents and elders", t: "Slowly and clearly", p: "Phone, Telegram, mobile payments and online safety, one step at a time." },
+    ],
+    topicsH: "What you will learn", topicsLead: "From the basics to expert tricks.",
+    topics: ["Computer basics", "Using AI and ChatGPT", "Internet and safety", "Phone and Telegram tricks", "Learning to code", "Digital work and business", "Word, Excel and documents", "Mobile payments", "Spotting fake news"],
+    demoH: "Watch the live demo", demoLead: "See how BARI works with your own eyes.", demoTitle: "BARI Live Demo", demoPlay: "Click to play the video", demoBadge: "LIVE DEMO", demoEmpty: "Add your YouTube video here", demoSound: "Turn sound on", demoMute: "Mute", demoPause: "Pause", demoPlayBtn: "Play", demoOpen: "Open on YouTube", demoFull: "Full screen", demoFit: "Show whole video", demoFill: "Fill the square",
+    waitH: "Be among the first", waitP: "BARI launches soon. Join the list and we will tell you first.",
+    name: "Your name", contact: "Phone or Telegram", role: "I am a",
+    roles: { child: "Child / Student", youth: "Youth", adult: "Adult", elder: "Elder", parent: "Parent (for my kids)" },
+    ok: "Thank you! You are on the waiting list.", bad: "Please enter your name and a phone or Telegram.", fail: "Something went wrong. Please try again.",
+    count: (n: number) => `${n} people have joined`,
+  },
+};
