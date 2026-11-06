@@ -1,0 +1,49 @@
+import type { Dictionary } from "@/lib/i18n";
+
+const om = {
+  languageName: "Afaan Oromoo",
+  logoLabel: "Tech Solution",
+  nav: { services: "Tajaajiloota", process: "Akkamitti hojjenna", why: "Maaliif 2BG", contact: "Nu qunnamaa", quote: "Gatii gaafadhu", menu: "Baafata", main: "Baafata guddaa", home: "Fuula jalqabaa 2BG Tech Solution", languages: "Afaanota" },
+  hero: { title: "Teekinooloojii daldalli kee itti amanamuu danda'u.", description: "2BG Tech Solution marsariitii fi sooftiweerii ijaara, neetworkii kee qopheessa, sirnoota kees hojii irra tura; ati maamiltoota kee irratti xiyyeeffadhu.", contactCta: "Garee keenya dubbisi", servicesCta: "Waan hojjenne ilaali" },
+  services: { heading: "Waan daldalli kee teekinooloojii irratti hojjechuuf barbaadu hunda", description: "Marsariitii jalqabaa irraa kaasee hanga neetworkii waajjiraa guutuutti si gargaarra.", items: [
+    { icon: "code", title: "Marsariitii fi sooftiweerii", text: "Marsariitii dhaabbataa, manneen gurgurtaa interneetii fi sirnoota daldalaa saffisaa, haaromsuuf salphaa fi si waliin guddatan." },
+    { icon: "mobile", title: "Appiiwwan moobaayilaa", text: "Appiiwwan Android fi iOS maamiltoota ykn garee keetiif, hojii guyyaa guyyaa irratti hundaa'anii qophaa'an." },
+    { icon: "network", title: "Neetworkii fi deeggarsa IT", text: "Neetworkii waajjiraa, Wi-Fi, kompiitaraa fi maxxansaa sirriitti qopheessina; yeroo rakkoon dhufu nu waami." },
+    { icon: "cloud", title: "Kilaawudii fi hoostingi", text: "Hoostingi, imeeyilii fi kuusaan amanamaa; daataa fi meeshaaleen kee bakka gareen kee jirutti argamu." },
+    { icon: "shield", title: "Nageenyaa fi baakappii", text: "Vaayirasii fi dhabamuu daataa irraa eegumsa, akkasumas baakappii yeroo yeroon qorannu." },
+    { icon: "design", title: "Beeraandii fi dizaayinii", text: "Loogoo, halluuwwan beeraandii fi wantoota dijitaalaa daldala kee akka ogummaa qabu agarsiisan." },
+  ] },
+  process: { heading: "Pirojektiin akkamitti hojjetama", items: [
+    { title: "Dhageenya", text: "Daldalli kee akkamitti akka hojjetu fi maaltu isa harkisu baranna." },
+    { title: "Karoorsina", text: "Hojii dura daangaa, yeroo fi gatii ifa ta'e argatta." },
+    { title: "Ijaaranna", text: "Sadarkaa sadarkaadhaan siif dabarsina, tarkaanfii keessas agarsiisna." },
+    { title: "Deeggarsa", text: "Erga banamee booda sirreessuu, haaromsuu fi fooyyessuuf si bira tura." },
+  ] },
+  why: { heading: "Dhiyeessaa qofa osoo hin taane, hiriyaa teekinooloojii", items: [
+    { title: "Afaan ifa ta'e", text: "Filannoowwan jechoota ulfaataa malee ibsina, ati murtee amanamummaadhaan akka gootuuf." },
+    { title: "Garee tokko waan hundaaf", text: "Sooftiweerii, neetworkii fi deeggarsi nama tokko irraa; hojiiwwan gidduu dhiyeessitootaa hin badani." },
+    { title: "Erga banamee boodas si bira jirra", text: "Suphaa fi deeggarsi hariiroo keenya keessaa jiru; waan dabalataa ati ari'atu miti." },
+  ] },
+  contact: { heading: "Waan si barbaachisu nutti himi. Guyyaa hojii tokko keessatti deebina.", email: "Imeeyilii", phone: "Bilbili" },
+  footer: { rights: "Mirgi hundi eegameera.", founder: "Hundeeffamaa fi Hogganaa Olaanaa" },
+  intro: { tagline: "Marsariitii, sooftiweerii fi deeggarsa IT daldala guddatuuf", skip: "Seensa darbi" },
+  art: { website: "Marsariitiin hojii irra", network: "Neetworkiin eegameera", backups: "Baakappiin mirkanaa'eera" },
+  demo: {
+    heading: "Hojii keenya hojiirra ilaali",
+    description: "Akka daldaltoonni sirriitti hojjetan teekinooloojii itti fayyadamnee gargaaruuf, viidiyoo gabaabaa ilaali.",
+    title: "Agarsiisa viidiyoo 2BG Tech Solution",
+    badge: "AGARSIISA VIIDIYOO",
+    empty: "Agarsiisa kana argisiisuuf ID viidiyoo YouTube .env.local keessa galchi.",
+    play: "Taphachiisi",
+    pause: "Dhaabi",
+    sound: "Sagalee bani",
+    mute: "Sagalee cufi",
+    open: "YouTube irratti bani",
+    full: "Iskiriinii guutuu",
+    fit: "Viidiyoo guutuu agarsiisi",
+    fill: "Iddoo guuti",
+  },
+  metadata: { title: "Marsariitii, sooftiweerii fi deeggarsa IT", description: "Marsariitii, sooftiweerii fi deeggarsa IT daldala guddatuuf." },
+} satisfies Dictionary;
+
+export default om;

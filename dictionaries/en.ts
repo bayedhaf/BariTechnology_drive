@@ -1,0 +1,82 @@
+import type { Dictionary } from "@/lib/i18n";
+
+const en = {
+  languageName: "English",
+  logoLabel: "Tech Solution",
+  nav: {
+    services: "Services",
+    process: "How we work",
+    why: "Why 2BG",
+    contact: "Contact",
+    quote: "Get a quote",
+    menu: "Menu",
+    main: "Main",
+    home: "2BG Tech Solution home",
+    languages: "Languages",
+  },
+  hero: {
+    title: "Technology your business can count on.",
+    description:
+      "2BG Tech Solution builds websites and software, sets up your network and keeps your systems running, so you can focus on your customers.",
+    contactCta: "Talk to our team",
+    servicesCta: "See what we do",
+  },
+  services: {
+    heading: "Everything your business needs to run on technology",
+    description: "From a first website to a full office network, we cover the whole stack.",
+    items: [
+      { icon: "code", title: "Websites and software", text: "Company websites, online shops and custom business systems that are fast, easy to update and built to grow with you." },
+      { icon: "mobile", title: "Mobile apps", text: "Android and iOS apps for your customers or your team, designed around the tasks people do every day." },
+      { icon: "network", title: "Networking and IT support", text: "Office networks, Wi-Fi, computers and printers set up properly, with a team to call when something stops working." },
+      { icon: "cloud", title: "Cloud and hosting", text: "Reliable hosting, email and storage so your data and tools are available wherever your team works." },
+      { icon: "shield", title: "Security and backup", text: "Protection against viruses and data loss, plus regular backups that we test, so you can recover quickly." },
+      { icon: "design", title: "Branding and design", text: "Logos, brand colors and digital materials that make your business look as professional as it is." },
+    ],
+  },
+  process: {
+    heading: "How a project works",
+    items: [
+      { title: "Listen", text: "We learn how your business works and what is slowing it down." },
+      { title: "Plan", text: "You get a clear scope, timeline and price before any work begins." },
+      { title: "Build", text: "We deliver in stages and show you progress along the way." },
+      { title: "Support", text: "After launch we stay on call to fix, update and improve." },
+    ],
+  },
+  why: {
+    heading: "A technology partner, not just a supplier",
+    items: [
+      { title: "Plain language", text: "We explain options without jargon, so you can make decisions with confidence." },
+      { title: "One team for everything", text: "Software, networks and support from the same people, so nothing falls between suppliers." },
+      { title: "We stay after launch", text: "Maintenance and support are part of the relationship, not an extra you chase." },
+    ],
+  },
+  contact: {
+    heading: "Tell us what you need. We will reply within one working day.",
+    email: "Email",
+    phone: "Call",
+  },
+  footer: { rights: "All rights reserved.", founder: "Founder & CEO" },
+  intro: { tagline: "Websites, software and IT support for growing businesses", skip: "Skip intro" },
+  art: { website: "Website live", network: "Network secured", backups: "Backups verified" },
+  demo: {
+    heading: "See our work in action",
+    description: "Watch a short look at how we use technology to help businesses work better.",
+    title: "2BG Tech Solution video demo",
+    badge: "VIDEO DEMO",
+    empty: "Add your YouTube video ID in .env.local to show the demo here.",
+    play: "Play",
+    pause: "Pause",
+    sound: "Turn sound on",
+    mute: "Mute",
+    open: "Open on YouTube",
+    full: "Full screen",
+    fit: "Show whole video",
+    fill: "Fill the frame",
+  },
+  metadata: {
+    title: "Websites, software and IT support",
+    description: "Websites, software and IT support for growing businesses.",
+  },
+} satisfies Dictionary;
+
+export default en;
