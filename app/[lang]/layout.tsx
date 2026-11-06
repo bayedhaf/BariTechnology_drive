@@ -1,20 +1,7 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Figtree } from "next/font/google";
 import { notFound } from "next/navigation";
 import { dictionaries, isLocale, locales, type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
-import "../globals.css";
-
-const display = Bricolage_Grotesque({
-  variable: "--font-bricolage",
-  subsets: ["latin"],
-  weight: ["600", "700", "800"],
-});
-
-const body = Figtree({
-  variable: "--font-figtree",
-  subsets: ["latin"],
-});
 
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -53,14 +40,7 @@ export default async function LocaleLayout({
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
 
-  return (
-    <html
-      lang={lang}
-      className={`${display.variable} ${body.variable}`}
-    >
-      <body>{children}</body>
-    </html>
-  );
+  return <div lang={lang}>{children}</div>;
 }
 
 export type LocaleParams = { lang: Locale };

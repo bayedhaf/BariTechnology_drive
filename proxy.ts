@@ -15,8 +15,11 @@ function bestLocale(request: NextRequest): Locale {
 }
 
 export function proxy(request: NextRequest) {
+  if (request.nextUrl.pathname === "/play/dodge") {
+    return NextResponse.redirect(new URL("/en/play", request.url));
+  }
   if (request.nextUrl.pathname !== "/") return NextResponse.next();
   return NextResponse.redirect(new URL(`/${bestLocale(request)}`, request.url));
 }
 
-export const config = { matcher: ["/"] };
+export const config = { matcher: ["/", "/play/dodge"] };
