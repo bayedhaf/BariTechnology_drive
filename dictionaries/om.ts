@@ -25,6 +25,13 @@ const om = {
     { title: "Erga banamee boodas si bira jirra", text: "Suphaa fi deeggarsi hariiroo keenya keessaa jiru; waan dabalataa ati ari'atu miti." },
   ] },
   contact: { heading: "Waan si barbaachisu nutti himi. Guyyaa hojii tokko keessatti deebina.", email: "Imeeyilii", phone: "Bilbili" },
+  founder: {
+    eyebrow: "Hundeeffamaa keenya wal argi",
+    heading: "Teekinooloojii kaayyoo qabu ijaaruu.",
+    message: "2BG Tech Solution hundeesse, teekinooloojii amanamaa daldaltoota, barattootaa fi namoota kaayyoo qaban bira akka ga'uuf. Jalqaba ni dhageenya, of eeggannoodhaan ijaarra, guddina keetis si waliin deemna.",
+    role: "Hundeeffamaa fi Hogganaa Olaanaa",
+    alt: "Eng. Bayisa Balcha, hundeeffamaa fi hogganaa olaanaa 2BG Tech Solution",
+  },
   footer: { rights: "Mirgi hundi eegameera.", founder: "Hundeeffamaa fi Hogganaa Olaanaa" },
   intro: { tagline: "Marsariitii, sooftiweerii fi deeggarsa IT daldala guddatuuf", skip: "Seensa darbi" },
   art: { website: "Marsariitiin hojii irra", network: "Neetworkiin eegameera", backups: "Baakappiin mirkanaa'eera" },
@@ -44,6 +51,32 @@ const om = {
     fill: "Iddoo guuti",
   },
   metadata: { title: "Marsariitii, sooftiweerii fi deeggarsa IT", description: "Marsariitii, sooftiweerii fi deeggarsa IT daldala guddatuuf." },
+  comingSoon: {
+    marketing: {
+      eyebrow: "Beeksisni qophaa'aa jira",
+      title: "Karaa ifa ta'een namoota bira ga'i.",
+      description: "Daldalaa fi uumaan hojii isaanii guddifatanuf iddoo beeksisaa salphaa ijaaramaa jira. Tarree jalqabaa keessa makami.",
+      featureOne: "Duula beeksisaa salphaa",
+      featureTwo: "Barnoota garee hojii qabuuf",
+      featureThree: "Yaada kaayyoo keetiif qophaa'e",
+    },
+    jobs: {
+      eyebrow: "Hojiiwwan qophaa'aa jiru",
+      title: "Carraan hojii kee itti aanu dhufaa jira.",
+      description: "Hojii barbaaduu, dandeettii cimsachuu fi gareewwan guddachaa jiran waliin wal qunnamuuf iddoo gaarii ijaaramaa jira. Tarree jalqabaa keessa makami.",
+      featureOne: "Carraawwan hojii filatamoo",
+      featureTwo: "Meeshaalee hojii barbaadduuf",
+      featureThree: "Dandeettii irraa gara hojii ifa ta'e",
+    },
+    name: "Maqaa kee",
+    contact: "Imeeyilii ykn lakkoofsa bilbilaa",
+    contactHint: "Oduu banamuu qofa siif erguuf itti fayyadamna.",
+    join: "Tarree eeggattootaa keessa makami",
+    joining: "Makamaa jira…",
+    success: "Tarree keessa jirta. Yeroo qophaa'u si beeksifna.",
+    error: "Maqaa fi imeeyilii ykn lakkoofsa bilbilaa sirrii galchi.",
+    promise: "Ergaa hin barbaachifne hin erginu. Oduu banamuu qofa.",
+  },
 } satisfies Dictionary;
 
 export default om;

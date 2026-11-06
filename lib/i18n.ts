@@ -42,6 +42,13 @@ export type Dictionary = {
     email: string;
     phone: string;
   };
+  founder: {
+    eyebrow: string;
+    heading: string;
+    message: string;
+    role: string;
+    alt: string;
+  };
   footer: {
     rights: string;
     founder: string;
@@ -73,6 +80,18 @@ export type Dictionary = {
   metadata: {
     title: string;
     description: string;
+  };
+  comingSoon: {
+    marketing: { eyebrow: string; title: string; description: string; featureOne: string; featureTwo: string; featureThree: string };
+    jobs: { eyebrow: string; title: string; description: string; featureOne: string; featureTwo: string; featureThree: string };
+    name: string;
+    contact: string;
+    contactHint: string;
+    join: string;
+    joining: string;
+    success: string;
+    error: string;
+    promise: string;
   };
 };
 

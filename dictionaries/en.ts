@@ -55,6 +55,13 @@ const en = {
     email: "Email",
     phone: "Call",
   },
+  founder: {
+    eyebrow: "Meet the founder",
+    heading: "Building technology with purpose.",
+    message: "I founded 2BG Tech Solution to make dependable technology more accessible to businesses, learners and ambitious people. We listen first, build carefully and stay with you as you grow.",
+    role: "Founder & CEO",
+    alt: "Eng. Bayisa Balcha, Founder and CEO of 2BG Tech Solution",
+  },
   footer: { rights: "All rights reserved.", founder: "Founder & CEO" },
   intro: { tagline: "Websites, software and IT support for growing businesses", skip: "Skip intro" },
   art: { website: "Website live", network: "Network secured", backups: "Backups verified" },
@@ -76,6 +83,32 @@ const en = {
   metadata: {
     title: "Websites, software and IT support",
     description: "Websites, software and IT support for growing businesses.",
+  },
+  comingSoon: {
+    marketing: {
+      eyebrow: "Marketing is getting ready",
+      title: "A clearer way to grow your reach.",
+      description: "We are building a practical marketing space for small businesses and ambitious creators. Join the early list and be among the first to explore it.",
+      featureOne: "Simple campaigns that make sense",
+      featureTwo: "Useful lessons for busy teams",
+      featureThree: "Ideas shaped around your goals",
+    },
+    jobs: {
+      eyebrow: "Jobs is getting ready",
+      title: "Your next opportunity is on the way.",
+      description: "We are creating a better place to discover work, build skills and connect with growing teams. Join the early list so you are ready when it opens.",
+      featureOne: "Opportunities worth discovering",
+      featureTwo: "Practical tools for job seekers",
+      featureThree: "A clearer path from skill to work",
+    },
+    name: "Your name",
+    contact: "Email or phone number",
+    contactHint: "We will only use this to share the launch update.",
+    join: "Join the waiting list",
+    joining: "Joining…",
+    success: "You are on the list. We will let you know when it is ready.",
+    error: "Please add your name and a valid email or phone number.",
+    promise: "No spam. Just one thoughtful update when we launch.",
   },
 } satisfies Dictionary;
 
